@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin: -10px;
+    background-image: linear-gradient(rgba(145, 110, 241, 0.75),#0080FF), url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/assassins-creed-vikings/5/5c/ACV_Jotunheim_region.png");
+    background-size: cover;
+    background-position: center;
+}
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+header {
+    background-color: rgba(77, 19, 143, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    margin: auto;
+    // styling
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper {
+    width: 100%;
+    height: 15vh;
+}
+
+#sticky {
+    position:fixed;
+    top : 0;
+    width: 100%;
+}
+
+#nav {
+    position: fixed;
+}
+
+.navbar-logo {
+    font-size: 2rem;
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; //memaksa jadi uppercase
+}
+
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #18a1fc;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+footer {
+    background-color: #233d90;
+    width: 100%;
+    text-align: center;
+    color: #42a5f5;
+    bottom: 0;
+    padding: 15px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}

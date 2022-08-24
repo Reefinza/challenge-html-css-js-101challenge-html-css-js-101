@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Satisfy';
+  font-size: 2rem;
+  margin-top: 20px; }
+
+h2 {
+  font-family: 'Comic Sans MS';
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+header1 {
+  color: #fff;
+  padding: 30px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg);
+  background-size: cover;
+  background-position: center; }
+
+#nav {
+  position: fixed; }
+
+.navbar-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  position: relative; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+.navbar ul li::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background: #18a1fc;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s; }
+
+.navbar ul li:hover::after {
+  width: 100%; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+section {
+  display: flex; }
+
+header {
+  margin-top: 50px;
+  background-color: #233d90;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white; }
+
+h3 {
+  margin-left: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+profiler {
+  float: left;
+  width: 30%;
+  background: #fff;
+  padding: 20px; }
+
+profile_part {
+  float: top;
+  height: 20%;
+  padding: 20%; }
+
+profile_part img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; }
+
+#profile {
+  margin-left: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url("https://img.freepik.com/free-photo/beautiful-wide-shot-ruth-glaciers-covered-snow-blue-sky-with-white-clouds_181624-3624.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.center {
+  text-align: center; }
+
+section::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+footer {
+  background-color: #233d90;
+  width: 100%;
+  text-align: center;
+  color: #42a5f5;
+  bottom: 0;
+  padding: 15px; }
+
+footer a {
+  text-decoration: none;
+  color: #fff; }
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto; } }

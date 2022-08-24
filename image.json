@@ -1,0 +1,64 @@
+{
+    "trainee": [
+        {
+        "name" : "Akmad 'Fizi' Fauzi",
+        "skill" : "Fullstack Developer",
+        "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011978584396664903/Untitled.png"
+        },
+        {
+            "name" : "Muhammad Iqrom",
+            "skill" : "Backend Developer",
+            "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979005936812092/Untitled.png"
+        },
+        {
+            "name" : "Fairuz Ikbar",
+            "skill" : "Fullstack Developer",
+            "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979201785643038/Untitled.png"
+        },
+        {
+            "name" : "Rifqi Hanif",
+            "skill" : "Backend Developer",
+            "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979403049308160/Untitled.png"
+        },
+        {
+            "name" : "Regi 'MJ' Rianto",
+            "skill" : "Fullstack Developer",
+            "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979573405159545/Untitled.png"
+            },
+            {
+                "name" : "Daud 'David' Haidar",
+                "skill" : "Backend Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979742095872000/Untitled.png"
+            },
+            {
+                "name" : "Rasyid 'Ocid' Ridho",
+                "skill" : "Frontend Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011979882823176323/Untitled.png"
+            },
+            {
+                "name" : "Fahlan Gusliawan",
+                "skill" : "IoT Engineer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011980161807286322/Untitled.png"
+            },
+            {
+                "name" : "Fikri Firmansyah",
+                "skill" : "Frontend Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011980502107955280/Untitled.png"
+            },
+            {
+                "name" : "Davidi Sianturi",
+                "skill" : "Fullstack Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011980656991027290/Untitled.png"
+            },
+            {
+                "name" : "Reynaldi Akbar",
+                "skill" : "Frontend Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011986427795476590/Untitled.png"
+            },
+            {
+                "name" : "Wisnu Raga",
+                "skill" : "Fullstack Developer",
+                "img" : "https://media.discordapp.net/attachments/1011936480911962135/1011986643642748989/Untitled.png"
+            }
+    ]
+}

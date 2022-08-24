@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://media.discordapp.net/attachments/1011936480911962135/1012055854129881158/vecteezy_futuristic-sci-fi-glowing-hud-element-abstract-hi-tech_5550026.jpg");
+  background-position: center; }
+
+.center {
+  text-align: center; }
+
+.large {
+  font-size: 3rem; }
+
+.text-primary {
+  color: #fff; }
+
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50%; }
+
+h1 > span {
+  color: #ab47bc; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh; }
+
+header {
+  color: #fff;
+  padding: 35px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+#nav {
+  position: fixed; }
+
+.navbar-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  position: relative; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+.navbar ul li::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background: #18a1fc;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s; }
+
+.navbar ul li:hover::after {
+  width: 100%; }
+
+section {
+  margin-top: 5%; }
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%; }
+
+.content h1 {
+  font-family: 'Satisfy';
+  font-size: 4rem; }
+
+.content p {
+  text-align: center;
+  margin: 20px auto;
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #fff; }
+
+.bg-primary {
+  background-color: #42a5f5; }
+
+.bg-secondary {
+  background-color: #ab47bc; }
+
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: auto; }
+
+.card img {
+  width: 200px;
+  height: 200px; }
+
+.card-body {
+  padding: 2px 16px; }
+
+footer {
+  background-color: #233d90;
+  width: 100%;
+  text-align: center;
+  color: #42a5f5;
+  bottom: 0;
+  padding: 15px;
+  margin-top: 50px; }
+
+footer a {
+  text-decoration: none;
+  color: #fff; }
