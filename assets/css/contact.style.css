@@ -62,6 +62,9 @@ header {
   text-align: center;
   font-size: xx-large; }
 
+.contacts ul li a {
+  color: #d9e4cc; }
+
 footer {
   background-color: #233d90;
   width: 100%;
